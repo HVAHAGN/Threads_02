@@ -19,6 +19,7 @@ namespace Threads09Semaphore
             Console.ReadLine();
         }
     }
+
     class Reader
     {
         static Semaphore sem = new Semaphore(3,3);
